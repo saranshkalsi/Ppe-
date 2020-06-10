@@ -1,0 +1,207 @@
+* {
+  padding: 0 ;
+  margin: 0 ;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #b3bac4;
+}
+
+a:hover {
+  color: #3cbcff;
+}
+
+button:hover {
+
+  box-shadow: 10px 10px 8px 10px #b3bac4;
+}
+
+p {
+  color: #b3bac4;
+
+}
+.btn-primary {
+  width: 30%;
+  border-radius: 50px;
+  margin-top: 30px;
+  padding: 10px;
+  border: transparent;
+  background-color: #3cbcff;
+  color: white;
+}
+
+.blue {
+color: #3cbcff;
+}
+.large-black {
+  font-size: 3.5em;
+}
+.med-blue {
+  font-size: 2em;
+}
+.med {
+  font-size: 1.5em;
+}
+
+button {
+  font-size: 1.2em;
+}
+.header {
+  width: 100% ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+.logo {
+  font-size: 1.5em;
+}
+
+.head-li{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 1.5em;
+
+}
+
+.main-1 {
+  display: flex;
+  width: 100%;
+  word-spacing: nowrap;
+  padding: 5% 10%;
+  background: rgb(242,251,255);
+  background: linear-gradient(38deg, rgba(242,251,255,0.8) 0%, rgba(197,217,226,0.8) 92%, rgba(242,251,255,0.8) 100%);
+
+
+
+}
+.container-left {
+  width: 50%;
+  text-align: left;
+  padding-top: 50px;
+}
+.banner {
+  width: 50%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2% 10%;
+}
+
+.feature-box {
+border: 2px solid #d6f0ff;
+border-radius: 10px;
+padding: 25px 50px;
+}
+
+.main-2 {
+  text-align: center;
+  width: 100%;
+  padding-top: 2%;
+}
+.main-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2% 10%;
+}
+.item {
+  width: 25%;
+  text-align: center;
+  border: 2px solid #d6f0ff;
+  border-radius: 10px;
+  margin: 1%;
+}
+.main-4 {
+  width: 100%;
+  padding: 5%;
+  background: linear-gradient(50deg, rgb(167, 221, 250), rgba(61, 187, 255, 0.49)),url(../images/hot-deal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.notice-front {
+  width: 50%;
+  text-align: center;
+  border: 2px solid #d6f0ff;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 5%;
+
+}
+.contact-form {
+  width: 100%;
+  display: flex;
+  padding: 2% 10%;
+}
+.contact-info {
+  width: 40%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 10px;
+
+}
+.field {
+  border: 2px solid #d6f0ff;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.form-btn {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #d6f0ff;
+  border-radius: 20px;
+  background: transparent;
+  border-color: none;
+  color: white;
+  background-color: #3cbcff;
+}
+
+.foot {
+  background-color: rgba(61, 187, 255, 0.49);
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-links {
+display: flex;
+padding-top: 2%;
+justify-content: space-around;
+}
+
+.foot-links a {
+  color: white;
+  font-size: 1.3em;
+}
+.foot-links a:hover {
+  color: black;
+}
